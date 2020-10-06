@@ -1,11 +1,8 @@
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using System;
 using System.Threading.Tasks;
 
 namespace DotNetAsyncConsole
 {
-   public static class Startup
+    public static class Startup
     {
         public static async Task Main(string[] args)
         {

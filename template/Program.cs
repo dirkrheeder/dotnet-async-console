@@ -1,12 +1,10 @@
-﻿using Microsoft.Extensions.Logging;
-using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace DotNetAsyncConsole
 {
     public class Program
     {
-          private readonly ILogger _logger;
+        private readonly ILogger _logger;
 
         public Program(ILogger<Program> logger)
         {
