@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PackageType>Template</PackageType>
     <PackageVersion>1.1.1</PackageVersion>
-    <PackageId>DirkRheeder.AsyncConsole.Template</PackageId>
+    <PackageId>AsyncConsole</PackageId>
     <Title>Async Console Template</Title>
     <Authors>Dirk Rheeder</Authors>
     <Description>A 'dotnet new' template for creating a console application that supports async</Description>
@@ -19,9 +19,14 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="template\**\*" Exclude="template\**\bin\**;template\**\obj\**" />
-    <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)"/>
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;template\**\obj\**" />
+    <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
     <Compile Remove="**\*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.8" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="3.1.8" />
   </ItemGroup>
 
 </Project>
