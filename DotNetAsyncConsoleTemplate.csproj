@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.1.1</PackageVersion>
+    <PackageVersion>1.1.2</PackageVersion>
     <PackageId>AsyncConsole</PackageId>
     <Title>Async Console Template</Title>
     <Authors>Dirk Rheeder</Authors>
@@ -16,10 +16,11 @@
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+    <Version>1.1.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="templates\**\*" Exclude="templates\**\bin\**;template\**\obj\**" />
+    <Content Include="template\**\*" Exclude="template\**\bin\**;template\**\obj\**" />
     <None Include="LICENSE.txt" Pack="true" PackagePath="$(PackageLicenseFile)" />
     <Compile Remove="**\*" />
   </ItemGroup>
