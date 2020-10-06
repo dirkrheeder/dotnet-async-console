@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Dirk Rheeder",
+    "classifications": [ "Common", "Console" ],
+    "identity": "DotNetAsynConsole.AsyncProject",
+    "name": "DotNet Async Console Project",
+    "shortName": "async-console",
+    "sourceName": "DotNetAsyncConsole",
+    "preferNameDirectory": "true",
+    "tags": {
+      "language": "C#",
+      "type": "project"
+    }
+}
