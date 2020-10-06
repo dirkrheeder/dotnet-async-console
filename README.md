@@ -10,4 +10,4 @@ Creates an async console application
 - cd MyConsoleApp
 - dotnet new async-console
 
-Or alternatively just run dotnet new async-console -o MyNewAsyncProject
+Or alternatively just run dotnet new async-console -n MyNewAsyncProject
