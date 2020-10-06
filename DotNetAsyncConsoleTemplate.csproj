@@ -2,21 +2,21 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>1.1.4</PackageVersion>
+    <PackageVersion>1.1.5</PackageVersion>
     <PackageId>AsyncConsole.Template</PackageId>
     <Title>Async Console Template</Title>
     <Authors>Dirk Rheeder</Authors>
     <Description>A 'dotnet new' template for creating a console application that supports async</Description>
     <PackageTags>dotnet-new;templates;console</PackageTags>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-
+    <PackageProjectUrl>https://github.com/dirkrheeder/dotnet-async-console</PackageProjectUrl>
     <TargetFramework>netstandard2.1</TargetFramework>
 
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
     <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
-    <Version>1.1.4</Version>
+    <Version>1.1.5</Version>
   </PropertyGroup>
 
   <ItemGroup>

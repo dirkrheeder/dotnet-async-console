@@ -1,9 +1,6 @@
 # Introduction 
 Creates an async console application
 
-# Getting Started
-Created from https://docs.microsoft.com/en-us/dotnet/core/tutorials/cli-templates-create-project-template
-
 # To Install
 - dotnet new -i AsyncConsole.Template
 - dotnet new -u AsyncConsole.Template
