@@ -22,4 +22,4 @@ jobs:
         PROJECT_FILE_PATH: DotNetAsyncConsoleTemplate.csproj
         # API key to authenticate with NuGet server
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
-        VERSION_REGEX: <PackageVersion>(.*)<\/PackageVersion>
+        VERSION_REGEX: <Version>(.*)<\/Version>
