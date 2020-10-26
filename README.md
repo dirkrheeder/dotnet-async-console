@@ -3,6 +3,8 @@ Creates an async console application
 
 # To Install
 - dotnet new -i AsyncConsole.Template
+
+# To UnInstall
 - dotnet new -u AsyncConsole.Template
 
 # To Use
