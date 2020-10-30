@@ -1,5 +1,5 @@
 # Introduction 
-Creates an async console application---
+Creates an async console application
 
 # To Install
 - dotnet new -i AsyncConsole.Template
