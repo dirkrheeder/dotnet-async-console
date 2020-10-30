@@ -5,7 +5,7 @@ Creates an async console application
 - dotnet new -i AsyncConsole.Template
 
 # To UnInstall
-- dotnet new -u AsyncConsole.Template.
+- dotnet new -u AsyncConsole.Template
 
 # To Use
 - mkdir MyConsoleApp
